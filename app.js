@@ -23,6 +23,7 @@
     phone: '<svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>',
     mail: '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>',
     pin: '<svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>',
+    zoom: '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4M8 11h6M11 8v6"/></svg>',
     book: '<svg viewBox="0 0 24 24"><path d="M4 4h6a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4zM20 4h-6a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h7z"/></svg>',
     cat: {
       'mao-punho': '<svg viewBox="0 0 24 24"><path d="M8 13V5a1.5 1.5 0 0 1 3 0v6M11 10V3.5a1.5 1.5 0 0 1 3 0V10M14 10V5a1.5 1.5 0 0 1 3 0v8a7 7 0 0 1-7 7h-.5a6 6 0 0 1-5-2.7L3 14.5a1.6 1.6 0 0 1 2.6-1.8L8 15"/></svg>',
@@ -198,7 +199,8 @@
     if (!p) return vProdutos();
     const k = q.get('e') && p.esp.includes(q.get('e')) ? q.get('e') : p.esp[0];
     const cat = D.categorias[k].find(c => p.cat.includes(c.id));
-    const gal = [p.img, ...p.galeria];
+    const gal = p.galeria;
+    const start = Math.max(0, gal.indexOf(p.imgFull));
     const list = a => `<ul class="list">${a.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
     const isShort = a => a.every(x => x.length <= 24);
 
@@ -224,9 +226,9 @@
       crumbs: [['Início', '#/'], [ESP[k].curto, `#/e/${k}`], ...(cat ? [[cat.nome, `#/e/${k}/c/${cat.id}`]] : []), [p.nome]],
       html: `<div class="wrap fade"><div class="detail">
         <div class="hero-img">
-          <div class="main" data-lb="0"><img src="${p.img}" alt="${esc(p.nome)}"></div>
-          ${nPages ? `<div class="strip-label"><span>${nPages === 1 ? 'Página do catálogo' : `Catálogo do fabricante · ${nPages} páginas`}</span><button data-lb="1">${I.book} Abrir</button></div>
-          <div class="strip">${p.galeria.map((g, i) => `<button data-lb="${i + 1}" aria-label="Página ${i + 1}"><img src="${g}" alt="" loading="lazy"></button>`).join('')}</div>` : ''}
+          <div class="main" data-lb="${start}"><img src="${p.imgFull}" alt="${esc(p.nome)}"><span class="zoom-hint">${I.zoom} Toque para ampliar</span></div>
+          ${nPages > 1 ? `<div class="strip-label"><span>Catálogo do fabricante · ${nPages} páginas</span><button data-lb="0">${I.book} Abrir</button></div>
+          <div class="strip">${gal.map((g, i) => `<button data-lb="${i}" class="${i === start ? 'cur' : ''}" aria-label="Página ${i + 1}"><img src="${g}" alt="" loading="lazy"></button>`).join('')}</div>` : ''}
         </div>
         <div>
           <div class="d-head"><span class="fab-tag">${esc(p.fab)}</span><h1>${esc(p.nome)}</h1>
@@ -237,7 +239,7 @@
           <div class="tabs" role="tablist">${tabs.map((t, i) => `<button role="tab" data-tab="${t[0]}" class="${i ? '' : 'on'}">${t[1]}</button>`).join('')}</div>
           ${tabs.map((t, i) => `<div class="panel" data-panel="${t[0]}" ${i ? 'hidden' : ''}>${t[2]}</div>`).join('')}
           <div class="cta-row"><button class="btn pri" data-contato="${esc(p.nome)}">${I.chat} Solicitar este material</button>
-            ${nPages ? `<button class="btn sec" data-lb="1">${I.book} Ver catálogo</button>` : ''}</div>
+            ${nPages > 1 ? `<button class="btn sec" data-lb="0">${I.book} Ver catálogo completo</button>` : ''}</div>
         </div></div>
         ${rel.length ? `<div class="related"><div class="section-h"><h2>Relacionados</h2></div><div class="prod-grid">${rel.map(x => card(x, k)).join('')}</div></div>` : ''}
         <p class="note">${esc(C.aviso)}</p></div>`,

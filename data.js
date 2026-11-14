@@ -126,6 +126,7 @@ window.NORTON_DATA = {
     "82286189008"
    ],
    "img": "img/thumb/r-stim.jpg",
+   "imgFull": "img/cat/react-coluna/02.jpg",
    "galeria": [
     "img/cat/react-coluna/02.jpg"
    ]
@@ -170,6 +171,7 @@ window.NORTON_DATA = {
     "82286189018"
    ],
    "img": "img/thumb/r-evolution.jpg",
+   "imgFull": "img/cat/react-coluna/03.jpg",
    "galeria": [
     "img/cat/react-coluna/03.jpg"
    ]
@@ -213,6 +215,7 @@ window.NORTON_DATA = {
     "82286189003"
    ],
    "img": "img/thumb/r-iconic.jpg",
+   "imgFull": "img/cat/react-coluna/04.jpg",
    "galeria": [
     "img/cat/react-coluna/04.jpg"
    ]
@@ -256,6 +259,7 @@ window.NORTON_DATA = {
     "82286189002"
    ],
    "img": "img/thumb/r-perform.jpg",
+   "imgFull": "img/cat/react-coluna/06.jpg",
    "galeria": [
     "img/cat/react-coluna/06.jpg"
    ]
@@ -300,6 +304,7 @@ window.NORTON_DATA = {
     "82286189013"
    ],
    "img": "img/thumb/collect.jpg",
+   "imgFull": "img/cat/react-coluna/07.jpg",
    "galeria": [
     "img/cat/react-coluna/07.jpg"
    ]
@@ -346,6 +351,7 @@ window.NORTON_DATA = {
     "82286189010"
    ],
    "img": "img/thumb/regcell.jpg",
+   "imgFull": "img/cat/react-coluna/10.jpg",
    "galeria": [
     "img/cat/react-coluna/10.jpg"
    ]
@@ -390,6 +396,7 @@ window.NORTON_DATA = {
     "82286189017"
    ],
    "img": "img/thumb/prime.jpg",
+   "imgFull": "img/cat/react-coluna/12.jpg",
    "galeria": [
     "img/cat/react-coluna/12.jpg"
    ]
@@ -433,6 +440,7 @@ window.NORTON_DATA = {
     "81740589003 (cânula)"
    ],
    "img": "img/thumb/orthoblock.jpg",
+   "imgFull": "img/cat/orthoblock/01.jpg",
    "galeria": [
     "img/cat/orthoblock/01.jpg",
     "img/cat/orthoblock/02.jpg"
@@ -468,6 +476,7 @@ window.NORTON_DATA = {
     "82286189006"
    ],
    "img": "img/thumb/r-discectomy.jpg",
+   "imgFull": "img/cat/react-coluna/05.jpg",
    "galeria": [
     "img/cat/react-coluna/05.jpg"
    ]
@@ -515,6 +524,7 @@ window.NORTON_DATA = {
     "82286189090"
    ],
    "img": "img/thumb/r-disc.jpg",
+   "imgFull": "img/cat/react-coluna/11.jpg",
    "galeria": [
     "img/cat/react-coluna/11.jpg"
    ]
@@ -553,6 +563,7 @@ window.NORTON_DATA = {
     "82286189118"
    ],
    "img": "img/thumb/endoscopia.jpg",
+   "imgFull": "img/cat/react-coluna/09.jpg",
    "galeria": [
     "img/cat/react-coluna/09.jpg"
    ]
@@ -580,6 +591,7 @@ window.NORTON_DATA = {
     "82286180002"
    ],
    "img": "img/thumb/target-spine.jpg",
+   "imgFull": "img/cat/react-coluna/08.jpg",
    "galeria": [
     "img/cat/react-coluna/08.jpg"
    ]
@@ -611,6 +623,7 @@ window.NORTON_DATA = {
     "82286189104"
    ],
    "img": "img/thumb/microdissectoras.jpg",
+   "imgFull": "img/cat/react-orto/14.jpg",
    "galeria": [
     "img/cat/react-orto/14.jpg"
    ]
@@ -646,6 +659,7 @@ window.NORTON_DATA = {
     "80356130195"
    ],
    "img": "img/thumb/flush.jpg",
+   "imgFull": "img/cat/razek-flush/01.jpg",
    "galeria": [
     "img/cat/razek-flush/01.jpg",
     "img/cat/razek-flush/02.jpg",
@@ -683,6 +697,7 @@ window.NORTON_DATA = {
     "Pode ser carregado com gentamicina, tobramicina, vancomicina ou rifampicina"
    ],
    "img": "img/thumb/perossal.jpg",
+   "imgFull": "img/cat/perossal/01.jpg",
    "galeria": [
     "img/cat/perossal/01.jpg",
     "img/cat/perossal/02.jpg"
@@ -713,6 +728,7 @@ window.NORTON_DATA = {
     "80084420025"
    ],
    "img": "img/thumb/toride-mao.jpg",
+   "imgFull": "img/cat/toride-mao/02.jpg",
    "galeria": [
     "img/cat/toride-mao/01.jpg",
     "img/cat/toride-mao/02.jpg",
@@ -742,6 +758,7 @@ window.NORTON_DATA = {
     "Sistemas 1.5, 2.0 e 2.7 mm"
    ],
    "img": "img/thumb/toride-mini-micro.jpg",
+   "imgFull": "img/cat/toride-mini-micro/02.jpg",
    "galeria": [
     "img/cat/toride-mini-micro/01.jpg",
     "img/cat/toride-mini-micro/02.jpg",
@@ -780,6 +797,7 @@ window.NORTON_DATA = {
     "80084429003"
    ],
    "img": "img/thumb/toride-mini-fragmentos.jpg",
+   "imgFull": "img/cat/toride-mini-fragmentos/02.jpg",
    "galeria": [
     "img/cat/toride-mini-fragmentos/01.jpg",
     "img/cat/toride-mini-fragmentos/02.jpg",
@@ -818,6 +836,7 @@ window.NORTON_DATA = {
     "80084420021"
    ],
    "img": "img/thumb/toride-radio-distal.jpg",
+   "imgFull": "img/cat/toride-radio-distal/01.jpg",
    "galeria": [
     "img/cat/toride-radio-distal/01.jpg",
     "img/cat/toride-radio-distal/02.jpg",
@@ -859,6 +878,7 @@ window.NORTON_DATA = {
     "82286189072"
    ],
    "img": "img/thumb/ct-surgery.jpg",
+   "imgFull": "img/cat/react-orto/07.jpg",
    "galeria": [
     "img/cat/react-orto/07.jpg"
    ]
@@ -890,6 +910,7 @@ window.NORTON_DATA = {
     "82286189096 (CTK Mini)"
    ],
    "img": "img/thumb/ctk.jpg",
+   "imgFull": "img/cat/react-orto/16.jpg",
    "galeria": [
     "img/cat/react-orto/16.jpg",
     "img/cat/react-orto/17.jpg"
@@ -917,6 +938,7 @@ window.NORTON_DATA = {
     "82286180014"
    ],
    "img": "img/thumb/fix-falange.jpg",
+   "imgFull": "img/cat/react-orto/11.jpg",
    "galeria": [
     "img/cat/react-orto/11.jpg"
    ]
@@ -950,6 +972,7 @@ window.NORTON_DATA = {
     "82286189067"
    ],
    "img": "img/thumb/target-hand.jpg",
+   "imgFull": "img/cat/react-orto/15.jpg",
    "galeria": [
     "img/cat/react-orto/15.jpg"
    ]
@@ -987,6 +1010,7 @@ window.NORTON_DATA = {
     "80084420027"
    ],
    "img": "img/thumb/toride-pequenos.jpg",
+   "imgFull": "img/cat/toride-pequenos/02.jpg",
    "galeria": [
     "img/cat/toride-pequenos/01.jpg",
     "img/cat/toride-pequenos/02.jpg",
@@ -1020,6 +1044,7 @@ window.NORTON_DATA = {
     "Espessura 3,0 mm"
    ],
    "img": "img/thumb/toride-clavicula.jpg",
+   "imgFull": "img/cat/toride-clavicula/01.jpg",
    "galeria": [
     "img/cat/toride-clavicula/01.jpg"
    ]
@@ -1047,6 +1072,7 @@ window.NORTON_DATA = {
     "82286180017"
    ],
    "img": "img/thumb/fix-ombro.jpg",
+   "imgFull": "img/cat/react-orto/09.jpg",
    "galeria": [
     "img/cat/react-orto/09.jpg"
    ]
@@ -1081,6 +1107,7 @@ window.NORTON_DATA = {
     "80084429003"
    ],
    "img": "img/thumb/toride-pe-av.jpg",
+   "imgFull": "img/cat/toride-pe-av/02.jpg",
    "galeria": [
     "img/cat/toride-pe-av/01.jpg",
     "img/cat/toride-pe-av/02.jpg",
@@ -1144,6 +1171,7 @@ window.NORTON_DATA = {
     "80356130177 / 80356130178 (instrumental)"
    ],
    "img": "img/thumb/hallufix.jpg",
+   "imgFull": "img/cat/razek-hallufix/01.jpg",
    "galeria": [
     "img/cat/razek-hallufix/01.jpg",
     "img/cat/razek-hallufix/02.jpg",
@@ -1176,6 +1204,7 @@ window.NORTON_DATA = {
     "Kit de instrumental próprio"
    ],
    "img": "img/thumb/snap-off.jpg",
+   "imgFull": "img/extra/parafuso_snap_off.jpg",
    "galeria": [
     "img/extra/parafuso_snap_off.jpg"
    ]
@@ -1200,6 +1229,7 @@ window.NORTON_DATA = {
     "Total alojamento do parafuso, minimizando proeminências"
    ],
    "img": "img/thumb/canulados-razek.jpg",
+   "imgFull": "img/extra/img_0013.jpg",
    "galeria": [
     "img/extra/img_0013.jpg"
    ]
@@ -1217,6 +1247,7 @@ window.NORTON_DATA = {
    ],
    "resumo": "Fresas e kit para correção de deformidades do pé por técnica minimamente invasiva.",
    "img": "img/thumb/perc-pe.jpg",
+   "imgFull": "img/extra/fresas.jpg",
    "galeria": [
     "img/extra/fresas.jpg"
    ]
@@ -1251,6 +1282,7 @@ window.NORTON_DATA = {
     "82286189048"
    ],
    "img": "img/thumb/ft-surgery.jpg",
+   "imgFull": "img/cat/react-orto/02.jpg",
    "galeria": [
     "img/cat/react-orto/02.jpg"
    ]
@@ -1274,6 +1306,7 @@ window.NORTON_DATA = {
     "82286189044"
    ],
    "img": "img/thumb/r-feet.jpg",
+   "imgFull": "img/cat/react-orto/03.jpg",
    "galeria": [
     "img/cat/react-orto/03.jpg"
    ]
@@ -1299,6 +1332,7 @@ window.NORTON_DATA = {
     "82286189040"
    ],
    "img": "img/thumb/secure.jpg",
+   "imgFull": "img/cat/react-orto/13.jpg",
    "galeria": [
     "img/cat/react-orto/13.jpg"
    ]
@@ -1335,6 +1369,7 @@ window.NORTON_DATA = {
     "80356130144"
    ],
    "img": "img/thumb/fastfit.jpg",
+   "imgFull": "img/cat/razek-fastfit/01.jpg",
    "galeria": [
     "img/cat/razek-fastfit/01.jpg",
     "img/cat/razek-fastfit/02.jpg",
@@ -1377,6 +1412,7 @@ window.NORTON_DATA = {
     "Ø2.8, 3.5, 4.5, 6.5 e 7.0 mm com arruelas e instrumental próprio"
    ],
    "img": "img/thumb/toride-canulado.jpg",
+   "imgFull": "img/cat/toride-canulado/03.jpg",
    "galeria": [
     "img/cat/toride-canulado/01.jpg",
     "img/cat/toride-canulado/02.jpg",
@@ -1410,6 +1446,7 @@ window.NORTON_DATA = {
     "Linha 3.5 / 4.5 / 5.5 / 6.5 / 7.5"
    ],
    "img": "img/thumb/toride-dupla-rosca.jpg",
+   "imgFull": "img/cat/toride-dupla-rosca/02.jpg",
    "galeria": [
     "img/cat/toride-dupla-rosca/01.jpg",
     "img/cat/toride-dupla-rosca/02.jpg",
@@ -1456,6 +1493,7 @@ window.NORTON_DATA = {
     "80084420030"
    ],
    "img": "img/thumb/fixnail.jpg",
+   "imgFull": "img/cat/toride-haste/01.jpg",
    "galeria": [
     "img/cat/toride-haste/01.jpg",
     "img/cat/toride-haste/02.jpg",
@@ -1493,6 +1531,7 @@ window.NORTON_DATA = {
     "Espessura 3,0 mm"
    ],
    "img": "img/thumb/toride-grandes.jpg",
+   "imgFull": "img/cat/toride-grandes/01.jpg",
    "galeria": [
     "img/cat/toride-grandes/01.jpg",
     "img/cat/toride-grandes/02.jpg",
@@ -1525,6 +1564,7 @@ window.NORTON_DATA = {
     "Instrumental com cabo de silicone"
    ],
    "img": "img/thumb/fenix.jpg",
+   "imgFull": "img/cat/bio-fenix/02.jpg",
    "galeria": [
     "img/cat/bio-fenix/01.jpg",
     "img/cat/bio-fenix/02.jpg",
@@ -1555,6 +1595,7 @@ window.NORTON_DATA = {
     "Tíbia: quatro opções de bloqueio proximal"
    ],
    "img": "img/thumb/fenix-sp2.jpg",
+   "imgFull": "img/cat/bio-femur-tibia/02.jpg",
    "galeria": [
     "img/cat/bio-femur-tibia/01.jpg",
     "img/cat/bio-femur-tibia/02.jpg",
@@ -1601,6 +1642,7 @@ window.NORTON_DATA = {
     "Parafuso cefálico estático ou telescopado"
    ],
    "img": "img/thumb/orion.jpg",
+   "imgFull": "img/cat/bio-orion/04.jpg",
    "galeria": [
     "img/cat/bio-orion/01.jpg",
     "img/cat/bio-orion/02.jpg",
@@ -1723,6 +1765,7 @@ window.NORTON_DATA = {
     ]
    },
    "img": "img/thumb/neo-hip.jpg",
+   "imgFull": "img/cat/sartori-quadril/07.jpg",
    "galeria": [
     "img/cat/sartori-quadril/01.jpg",
     "img/cat/sartori-quadril/02.jpg",
@@ -1757,6 +1800,7 @@ window.NORTON_DATA = {
     "Instrumental primário e de revisão"
    ],
    "img": "img/thumb/liberty.jpg",
+   "imgFull": "img/extra/protese_sartori_1.jpg",
    "galeria": [
     "img/extra/protese_sartori_1.jpg",
     "img/extra/protese_sartori_2.jpg",
@@ -1809,6 +1853,7 @@ window.NORTON_DATA = {
     "Cabeça bipolar constrita e cabeça intercambiável Ø28 mm (curta/média/longa)"
    ],
    "img": "img/thumb/hipsystem.jpg",
+   "imgFull": "img/cat/bio-quadril/02.jpg",
    "galeria": [
     "img/cat/bio-quadril/01.jpg",
     "img/cat/bio-quadril/02.jpg",
@@ -1835,6 +1880,7 @@ window.NORTON_DATA = {
     "Referência anterior e posterior"
    ],
    "img": "img/thumb/zimmer.jpg",
+   "imgFull": "img/cat/zimmer-joelho/01.jpg",
    "galeria": [
     "img/cat/zimmer-joelho/01.jpg",
     "img/cat/zimmer-joelho/02.jpg",
@@ -1909,6 +1955,7 @@ window.NORTON_DATA = {
     "80836140007"
    ],
    "img": "img/thumb/selaz-circular.jpg",
+   "imgFull": "img/cat/selaz/04.jpg",
    "galeria": [
     "img/cat/selaz/03.jpg",
     "img/cat/selaz/04.jpg",
@@ -1936,6 +1983,7 @@ window.NORTON_DATA = {
     "Motor"
    ],
    "img": "img/thumb/ccs2.jpg",
+   "imgFull": "img/cat/selaz/08.jpg",
    "galeria": [
     "img/cat/selaz/08.jpg",
     "img/cat/selaz/09.jpg"
@@ -1963,6 +2011,7 @@ window.NORTON_DATA = {
     "80836140015"
    ],
    "img": "img/thumb/genesis.jpg",
+   "imgFull": "img/cat/selaz/10.jpg",
    "galeria": [
     "img/cat/selaz/10.jpg",
     "img/cat/selaz/11.jpg",
@@ -1991,6 +2040,7 @@ window.NORTON_DATA = {
     "80836140017"
    ],
    "img": "img/thumb/quartz.jpg",
+   "imgFull": "img/cat/selaz/14.jpg",
    "galeria": [
     "img/cat/selaz/14.jpg",
     "img/cat/selaz/15.jpg",
@@ -2024,6 +2074,7 @@ window.NORTON_DATA = {
     "82286189086 (Hip)"
    ],
    "img": "img/thumb/filler.jpg",
+   "imgFull": "img/cat/react-orto/10.jpg",
    "galeria": [
     "img/cat/react-orto/10.jpg",
     "img/cat/react-orto/12.jpg"
@@ -2047,6 +2098,7 @@ window.NORTON_DATA = {
     "82286180004 (Shoulder)"
    ],
    "img": "img/thumb/targets.jpg",
+   "imgFull": "img/cat/react-orto/04.jpg",
    "galeria": [
     "img/cat/react-orto/04.jpg",
     "img/cat/react-orto/05.jpg",
@@ -2075,6 +2127,7 @@ window.NORTON_DATA = {
     "82286189040"
    ],
    "img": "img/thumb/uni-biopsy.jpg",
+   "imgFull": "img/cat/react-orto/08.jpg",
    "galeria": [
     "img/cat/react-orto/08.jpg"
    ]
