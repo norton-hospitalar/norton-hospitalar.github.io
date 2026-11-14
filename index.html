@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Norton Hospitalar · Portfólio OPME</title>
+<meta name="description" content="Portfólio interativo de OPME da Norton Hospitalar: ortopedia, coluna e neurocirurgia.">
+<meta name="theme-color" content="#02265A">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Norton OPME">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar" id="topbar" hidden>
+  <button class="icon-btn" id="btn-back" aria-label="Voltar">
+    <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <a href="#/" class="brand" aria-label="Início"><img src="img/logo-norton.png" alt="Norton Hospitalar"></a>
+  <nav class="crumbs" id="crumbs"></nav>
+  <form class="search" id="search-form" role="search">
+    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    <input id="search-input" type="search" placeholder="Buscar produto, medida, fabricante…" autocomplete="off">
+  </form>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<button class="fab" id="fab-contato" hidden>
+  <svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/></svg>
+  <span>Falar com o representante</span>
+</button>
+
+<div class="sheet" id="sheet" hidden>
+  <div class="sheet-card" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+    <button class="icon-btn sheet-close" data-close aria-label="Fechar"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div id="sheet-body"></div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lb-top">
+    <span id="lb-count"></span>
+    <button class="icon-btn light" id="lb-zoom" aria-label="Ampliar"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4M8 11h6M11 8v6"/></svg></button>
+    <button class="icon-btn light" id="lb-close" aria-label="Fechar"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <div class="lb-stage" id="lb-stage"><img id="lb-img" alt=""></div>
+  <button class="lb-nav prev" id="lb-prev" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button class="lb-nav next" id="lb-next" aria-label="Próxima"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+</div>
+
+<script src="content.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
