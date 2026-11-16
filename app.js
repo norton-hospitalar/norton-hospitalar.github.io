@@ -86,10 +86,11 @@
     <section class="home fade">
       <div class="home-inner">
         <div class="logo-card"><img src="img/logo-norton.png" alt="Norton Hospitalar"></div>
+        <p class="since">Distribuidora de OPME em Macapá · desde ${esc(C.empresa.desde)}</p>
         <h1>Portfólio de OPME para <em>ortopedia</em>, <em>coluna</em> e neurocirurgia.</h1>
         <p class="sub">Escolha por onde começar: conheça a Norton ou vá direto aos materiais, medidas e especificações técnicas.</p>
         <div class="choices">
-          <a class="choice" href="#/empresa"><span class="ic">${I.building}</span><span><b>Conhecer a Norton</b><span>Quem somos e como atendemos</span></span></a>
+          <a class="choice" href="#/empresa"><span class="ic">${I.building}</span><span><b>Conhecer a Norton</b><span>Estrutura, fornecedores e diferenciais</span></span></a>
           <a class="choice primary" href="#/produtos"><span class="ic">${I.grid}</span><span><b>Ir direto aos produtos</b><span>${D.produtos.length} sistemas e kits</span></span></a>
         </div>
         <div class="quick">
@@ -104,29 +105,61 @@
 
   function vEmpresa() {
     const E = C.empresa;
-    const fabs = [...new Set(D.produtos.map(p => p.fab.split(' / ')[0]))];
+    const anos = new Date().getFullYear() - (+E.desde || 2010);
+    const fotos = E.fotos || [];
     return {
       title: 'A empresa', crumbs: [['Início', '#/'], ['A empresa']],
-      html: `<div class="wrap fade">
-      <p class="eyebrow">A empresa</p>
-      <h1 class="title">${esc(E.titulo)}</h1>
-      <p class="lead">${esc(E.chamada)}</p>
+      html: `<section class="emp-hero fade" style="--bg:url('${fotos[0] ? fotos[0].src : ''}')">
+        <div class="emp-hero-in">
+          <p class="eyebrow light">A empresa · desde ${esc(E.desde)}</p>
+          <h1>${esc(E.titulo)}</h1>
+          <p>${esc(E.chamada)}</p>
+          <div class="emp-stats">
+            <div><b>${anos}+</b><span>anos de mercado</span></div>
+            <div><b>${E.fornecedores.length}</b><span>fornecedores</span></div>
+            <div><b>${D.produtos.length}</b><span>sistemas no portfólio</span></div>
+            <div><b>${E.segmentos.length === 2 ? 'Público e privado' : esc(E.segmentos.join(', '))}</b><span>segmentos</span></div>
+          </div>
+        </div>
+      </section>
+      <div class="wrap fade">
       <div class="about">
         <div>
+          <div class="section-h" style="margin-top:0"><h2>Quem somos</h2></div>
           ${E.paragrafos.map(p => `<p>${esc(p)}</p>`).join('')}
-          <div class="section-h"><h2>Nossos diferenciais</h2></div>
-          <div class="pilares">${E.pilares.map(p => `<div class="pilar"><b>${esc(p.titulo)}</b><span>${esc(p.texto)}</span></div>`).join('')}</div>
-          <div class="section-h"><h2>Fabricantes do portfólio</h2></div>
-          <div class="fab-list">${fabs.map(f => `<span>${esc(f)}</span>`).join('')}</div>
+          <div class="section-h"><h2>Áreas de atuação</h2></div>
+          <div class="fab-list">${E.areas.map(a => `<span>${esc(a)}</span>`).join('')}${E.linhasAdicionais.map(a => `<span class="alt">${esc(a)}</span>`).join('')}</div>
         </div>
         <aside class="about-side">
           <h3>Pronto para ver os materiais?</h3>
           <p>Navegue por especialidade, região anatômica ou busque por nome e medida.</p>
-          <div class="stat"><div><b>${D.produtos.length}</b><span>sistemas e kits</span></div><div><b>${fabs.length}</b><span>fabricantes</span></div></div>
           <a class="btn pri" href="#/e/orto">${I.bone} ${ESP.orto.curto}</a>
           <a class="btn sec" href="#/e/neuro">${I.spine} ${ESP.neuro.curto}</a>
         </aside>
-      </div></div>` };
+      </div>
+
+      <div class="section-h"><h2>Nossa estrutura</h2><span class="muted">${fotos.length} fotos · toque para ampliar</span></div>
+      <div class="gallery">${fotos.map((f, i) => `<button class="g-item ${i === 0 ? 'big' : ''}" data-foto="${i}"><img src="${f.src}" alt="${esc(f.legenda)}" loading="lazy"><span>${esc(f.legenda)}</span></button>`).join('')}</div>
+
+      <div class="section-h"><h2>Por que trabalhar com a Norton?</h2></div>
+      <div class="pilares four">${E.diferenciais.map((p, i) => `<div class="pilar"><i>${String(i + 1).padStart(2, '0')}</i><b>${esc(p.titulo)}</b><span>${esc(p.texto)}</span></div>`).join('')}</div>
+
+      <div class="section-h"><h2>Fornecedores</h2></div>
+      <div class="fab-list">${E.fornecedores.map(f => `<span>${esc(f)}</span>`).join('')}</div>
+
+      <div class="section-h"><h2>Localização</h2></div>
+      <div class="loc">
+        <div class="loc-ic">${I.pin}</div>
+        <div><b>${esc(E.endereco)}</b><span>Localizada em uma das principais avenidas da cidade, o que facilita a logística e a entrega de materiais cirúrgicos.</span></div>
+        ${E.mapa ? `<a class="btn sec" href="${E.mapa}" target="_blank" rel="noopener">${I.pin} Abrir no mapa</a>` : ''}
+      </div>
+      <p class="note">${esc(E.razaoSocial)} · CNPJ ${esc(E.cnpj)}</p>
+      </div>`,
+      after() {
+        const list = fotos.map(f => f.src);
+        app.querySelectorAll('[data-foto]').forEach(b => b.onclick = () => openLB(list, +b.dataset.foto));
+      }
+    };
   }
 
   function vProdutos() {
