@@ -7,7 +7,7 @@ window.NORTON_CONTENT = {
     representante: "",          // ex.: "Willyan Silva — Consultor OPME"
     whatsapp: "",               // só números com DDI e DDD, ex.: "5596999999999"
     telefone: "",               // ex.: "(96) 99999-9999"
-    email: "",                  // ex.: "contato@nortonhospitalar.com.br"
+    email: "comercial@nortonhospitalar.com.br",
     endereco: "Avenida FAB, 1070 – Central, Macapá – AP",
     instagram: ""               // ex.: "nortonhospitalar"
   },
