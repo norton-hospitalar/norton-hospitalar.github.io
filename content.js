@@ -28,7 +28,7 @@ window.NORTON_CONTENT = {
     areas: ["Traumatologia", "Coluna", "Neuro", "Artroplastia de Quadril e Joelho"],
     linhasAdicionais: ["Dor", "Fixadores"],
     segmentos: ["Público", "Privado"],
-    fornecedores: ["Toride", "Biomecânica", "Medimed", "Minas Med", "Selaz", "Traumédica", "Sartori", "Bioscience", "Implanfix", "OCX", "React", "Razek"],
+    fornecedores: ["Toride", "Biomecânica", "Medimed", "Minas Med", "Selaz", "Traumédica", "Sartori", "Bioscience", "Implanfix", "OCX", "React", "Razek", "Marden Medical"],
     diferenciais: [
       { titulo: "Estrutura", texto: "Sede própria com estoque, sala de materiais e escritório em Macapá." },
       { titulo: "Linha de produtos", texto: "Do pequeno fragmento à artroplastia, com coluna, neuro, dor e fixadores." },

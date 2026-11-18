@@ -1,5 +1,5 @@
 /* Service worker: funciona offline nas visitas. Altere VERSION a cada publicação. */
-const VERSION = 'norton-v5';
+const VERSION = 'norton-v6';
 const SHELL = [
   "./",
   "index.html",

@@ -78,8 +78,8 @@ window.NORTON_DATA = {
    {
     "id": "endoscopia",
     "nome": "Endoscopia de Coluna",
-    "desc": "Biportal (UBE) e kits de cânulas STK / RZK",
-    "n": 2
+    "desc": "Biportal (UBE), cortador ósseo ultrassônico e kits de cânulas STK / RZK",
+    "n": 3
    },
    {
     "id": "apoio-neuro",
@@ -658,6 +658,63 @@ window.NORTON_DATA = {
    "imgFull": "img/extra/voyager.jpg",
    "galeria": [
     "img/extra/voyager.jpg"
+   ]
+  },
+  {
+   "id": "sonata",
+   "nome": "SONATA — Kit Cortador Ósseo Ultrassônico",
+   "sub": "Lâmina ultrassônica para osteotomia endoscópica da coluna",
+   "fab": "Marden Medical",
+   "esp": [
+    "neuro"
+   ],
+   "cat": [
+    "endoscopia"
+   ],
+   "resumo": "Corte ósseo por energia ultrassônica com proteção seletiva de tecidos moles (dura-máter, raízes nervosas, vasos), para cirurgia endoscópica biportal e multiportal da coluna.",
+   "composicao": [
+    "Equipo de refrigeração",
+    "Camisa de extensor",
+    "Lâmina de corte ósseo ultrassônica Ø3,8 × 150 mm",
+    "Disponível em diversas configurações de lâminas, conforme o procedimento ou a preferência do cirurgião"
+   ],
+   "especificacoes": [
+    "Gerador ultrassônico INSURG, com tecnologia de Rarefação por Compressão Programável (RCP)",
+    "Lâmina oscila de 26.000 a 60.000 ciclos por segundo, conforme a força aplicada",
+    "Amplitude de movimento de 35 a 300 µm, bem menor que a de um osteótomo",
+    "Irrigação com soro fisiológico estéril para resfriar a lâmina e os tecidos (previne osteonecrose e dano térmico)"
+   ],
+   "indicacoes": [
+    "Osteotomias, corticotomias e curetagem óssea em cirurgia endoscópica da coluna (biportal e multiportal)",
+    "Osteotomias do corpo vertebral",
+    "Laminectomias e laminotomias",
+    "Foraminotomias",
+    "Descompressão do canal vertebral"
+   ],
+   "caracteristicas": [
+    "Ação seletiva: corta osso e preserva tecidos moles que vibram junto com a lâmina",
+    "Menor sangramento: efeito coagulante nos canais venosos do osso esponjoso e remoção óssea em bloco",
+    "Movimento longitudinal, sem efeito giroscópico: osteotomias de precisão em espaços restritos",
+    "Maior rapidez e eficiência",
+    "A seletividade não é absoluta: limitar tempo e pressão da lâmina sobre os tecidos subjacentes"
+   ],
+   "anvisa": [
+    "82209529331"
+   ],
+   "links": [
+    {
+     "label": "Instrução de uso",
+     "url": "https://qr.me-qr.com/kzdmdquP"
+    }
+   ],
+   "img": "img/thumb/sonata.jpg",
+   "imgFull": "img/cat/marden-sonata/01.jpg",
+   "galeria": [
+    "img/cat/marden-sonata/01.jpg",
+    "img/cat/marden-sonata/02.jpg",
+    "img/cat/marden-sonata/03.jpg",
+    "img/cat/marden-sonata/04.jpg",
+    "img/cat/marden-sonata/05.jpg"
    ]
   },
   {
