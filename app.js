@@ -272,7 +272,8 @@
           <div class="tabs" role="tablist">${tabs.map((t, i) => `<button role="tab" data-tab="${t[0]}" class="${i ? '' : 'on'}">${t[1]}</button>`).join('')}</div>
           ${tabs.map((t, i) => `<div class="panel" data-panel="${t[0]}" ${i ? 'hidden' : ''}>${t[2]}</div>`).join('')}
           <div class="cta-row"><button class="btn pri" data-contato="${esc(p.nome)}">${I.chat} Solicitar este material</button>
-            ${nPages > 1 ? `<button class="btn sec" data-lb="0">${I.book} Ver catálogo completo</button>` : ''}</div>
+            ${nPages > 1 ? `<button class="btn sec" data-lb="0">${I.book} Ver catálogo completo</button>` : ''}
+            ${(p.links || []).map(l => `<a class="btn sec" href="${esc(l.url)}" target="_blank" rel="noopener">${I.book} ${esc(l.label)}</a>`).join('')}</div>
         </div></div>
         ${rel.length ? `<div class="related"><div class="section-h"><h2>Relacionados</h2></div><div class="prod-grid">${rel.map(x => card(x, k)).join('')}</div></div>` : ''}
         <p class="note">${esc(C.aviso)}</p></div>`,

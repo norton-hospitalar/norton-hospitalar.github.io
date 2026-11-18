@@ -78,8 +78,8 @@ window.NORTON_DATA = {
    {
     "id": "endoscopia",
     "nome": "Endoscopia de Coluna",
-    "desc": "Kits de cânulas STK / RZK",
-    "n": 1
+    "desc": "Biportal (UBE) e kits de cânulas STK / RZK",
+    "n": 2
    },
    {
     "id": "apoio-neuro",
@@ -566,6 +566,98 @@ window.NORTON_DATA = {
    "imgFull": "img/cat/react-coluna/09.jpg",
    "galeria": [
     "img/cat/react-coluna/09.jpg"
+   ]
+  },
+  {
+   "id": "voyager",
+   "nome": "VOYAGER — Kit para Endoscopia Biportal da Coluna",
+   "sub": "Kit instrumental para cirurgia endoscópica biportal (UBE)",
+   "fab": "Marden Medical",
+   "esp": [
+    "neuro"
+   ],
+   "cat": [
+    "endoscopia"
+   ],
+   "resumo": "Kit completo para descompressão do canal vertebral e/ou estenose foraminal em qualquer nível da coluna pela técnica endoscópica biportal, com dilatadores progressivos, cânulas de desbridamento e ponteiras de plasma.",
+   "composicao": [
+    "Guia de acesso biportal inicial Ø4,5 × 200 mm",
+    "Guia do portal endoscópico Ø4,0 × 250 mm",
+    "Tubos dilatadores progressivos N1 Ø5,7 × 180 mm · N2 Ø6,7 × 170 mm · N3 Ø8,0 × 160 mm · N4 Ø9,2 × 150 mm",
+    "Camisa para neuroendoscópio HPF 30° Ø5,5 × 135 mm, com obturador",
+    "Protetor da camisa óptica Ø6,5 × 85 mm",
+    "Cânula de desbridamento retrátil BR (broca redonda) Ø4,0 × 150 mm",
+    "Cânula de desbridamento retrátil BD (broca diamantada) Ø4,0 × 150 mm",
+    "Ponteiras de plasma ionizado PlasmaKnife Dissect e PlasmaKnife Hook",
+    "Equipo de irrigação gravitacional 4 vias",
+    "Bolsa coletora de fluidos 500 × 600 mm"
+   ],
+   "tabela": {
+    "cab": [
+     "Código",
+     "Modelo (sufixo das cânulas de desbridamento)"
+    ],
+    "lin": [
+     [
+      "VOYA-394 001",
+      "RZ"
+     ],
+     [
+      "VOYA-394 002",
+      "SF"
+     ],
+     [
+      "VOYA-394 003",
+      "ST"
+     ],
+     [
+      "VOYA-394 004",
+      "LV"
+     ],
+     [
+      "VOYA-394 005",
+      "EP"
+     ],
+     [
+      "VOYA-394 006",
+      "RW"
+     ]
+    ]
+   },
+   "especificacoes": [
+    "1 unidade de cada componente em todos os modelos",
+    "Fornecido estéril (óxido de etileno), uso único — não reprocessar",
+    "Livre de látex de borracha natural e de DEHP",
+    "Microdesbridador ósseo em zircônia",
+    "Validade de 3 anos a partir da esterilização",
+    "Ponteiras de plasma exigem meio condutor (soro fisiológico); padrão 20 W ablação / 25 W coagulação"
+   ],
+   "indicacoes": [
+    "Descompressão do canal vertebral e/ou estenose foraminal em qualquer nível da coluna",
+    "Ressecção do ligamento amarelo e remoção de osteófitos",
+    "Foraminotomia e laminectomia",
+    "Discectomia, nucleotomia e nucleoplastia",
+    "Anulotomia e anuloplastia",
+    "Tratamento de protrusões discais"
+   ],
+   "caracteristicas": [
+    "Técnica biportal: portal de visualização e portal de trabalho independentes",
+    "Dilatação progressiva em 4 etapas",
+    "Desbridamento e hemostasia com plasma no mesmo kit"
+   ],
+   "anvisa": [
+    "82209520071"
+   ],
+   "links": [
+    {
+     "label": "Manual do fabricante (PDF)",
+     "url": "https://qr.me-qr.com/mobile/pdf/cdc514fe-a5f8-4c47-867a-12bcedf8176a"
+    }
+   ],
+   "img": "img/thumb/voyager.jpg",
+   "imgFull": "img/extra/voyager.jpg",
+   "galeria": [
+    "img/extra/voyager.jpg"
    ]
   },
   {
